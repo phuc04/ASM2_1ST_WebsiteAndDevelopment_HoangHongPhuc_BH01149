@@ -1,0 +1,339 @@
+body {
+    background-color: white;
+}
+
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+div,
+header,
+li,
+a {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* form */
+.tren {
+    padding: 20px;
+    /* Khoảng cách giữa nội dung và viền phần tử */
+}
+
+.tren header {
+    display: flex;
+    align-items: center;
+}
+
+.tren .logo1 {
+    width: 250px;
+    /* Điều chỉnh kích thước của logo */
+    margin-right: 560px;
+    /* Khoảng cách giữa logo và tiêu đề */
+}
+
+.tren .logo2 {
+    width: 250px;
+    /* Điều chỉnh kích thước của logo */
+    margin-left: 812px;
+    /* Khoảng cách giữa logo và tiêu đề */
+}
+
+.tren .thanhtieude {
+    margin-left: 264px;
+    /* Xóa các margin mặc định của tiêu đề */
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* logo btec 1&2 va chu tieu de */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: -87px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 400px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    padding: 3px;
+    line-height: 1.5;
+    font-size: 28px;
+}
+
+nav li a:hover {
+    color: red;
+}
+
+span {
+    width: 48px;
+}
+
+.gth {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* cac chuc nang de huong toi */
+.oto {
+    width: 200px;
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(100vw - 200px));
+    }
+}
+
+/* icon oto di chuyen */
+#home {
+    background-color: white;
+    text-align: center;
+    padding: 0px;
+}
+
+#home h2 {
+    color: black;
+    font-size: 24px;
+}
+
+#home p {
+    color: red;
+
+}
+
+/* mau sac, font chu cac chuc nang */
+.cacsanphan-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.cacsanpham {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.cacsanpham img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cacsanpham h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.cacsanpham p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.cacsanpham input.number {
+    width: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cacsanpham button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cacsanpham button:hover {
+    background-color: #45a049;
+}
+
+/* chuc nang cac nut dieu khien */
+
+.gioithieusanpham {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    position: absolute;
+}
+
+.gioithieusanpham h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    width: 100%;
+}
+
+.gioithieusanpham li {
+    list-style: none;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gioithieusanpham li:hover {
+    transform: scale(1.05);
+}
+
+.gioithieusanpham h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+    margin: 10px 0;
+}
+
+.gioithieusanpham img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.gioithieusanpham p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.gioithieusanpham li {
+    /* ... */
+    background-color: #fff;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.gioithieusanpham li:hover {
+    transform: scale(1.05);
+    background-color: pink;
+}
+
+.cacsanpham-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cacsanpham {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cacsanpham img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cacsanpham h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cacsanpham p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.cacsanpham input {
+    width: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.cacsanphan-list {
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cacsanpham {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.number {
+    width: 40px;
+}
+
+#cart {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+#cart th,
+#cart td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+#cart th {
+    background-color: #f2f2f2;
+}
+
+#cart th,
+#cart td {
+    transition: background-color 0.3s;
+}
+
+#cart tr:hover {
+    background-color: #f5f5f5;
+}

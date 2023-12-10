@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car website</title>
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div class="tong">
+        <div class="tren">
+            <header>
+                <img src="img/BTEC_Logo_RGB_300ppi-removebg-preview.png" alt="" class="logo1">
+                <h1 style="color:red" && class="thanhtieude">BTEC CAR SHOP</h1>
+                <img src="img/BTEC_Logo_RGB_300ppi-removebg-preview.png" alt="" class="logo2">
+            </header>
+        </div>
+        <div class="gth">
+            <div id="home">
+                <h2>BTEC Car Website</h2>
+                <p style="color:red">Here we have many car models and brands for you.</p>
+            </div>
+            <img class="oto" src="img/th-removebg-preview.png" alt="">
+            <nav>
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+                <li><a href="index.html">Home</a></li>
+                <span class="material-symbols-outlined">
+                    shopping_bag
+                </span>
+                <li><a href="products.html">Product</a></li>
+                <span class="material-symbols-outlined">
+                    description
+                </span>
+                <li><a href="about.html">About</a></li>
+                <span class="material-symbols-outlined">
+                    login
+                    </span>
+                <li><a href="login.html">Login</a></li>
+                <span class="material-symbols-outlined">
+                    person_add
+                    </span>
+                <li><a href="signup.html">Register</a></li>
+            </nav>
+        </div>
+            <div class="cacsanphan-list">
+                <div class="cacsanpham">
+                  <img src="img/1.jpg" alt="Lamborghini">
+                  <h3>Lamborghini</h3>
+                  <p>Price: $403</p>
+                  <input class="number" type="number" id="Lamborghini-quantity" min="1" value="1">
+                  <button onclick="addToCart('Lamborghini', 403)">Add to Cart</button>
+                </div>
+                <div class="cacsanpham">
+                  <img src="img/audi.jpg" alt="Audi">
+                  <h3>Audi</h3>
+                  <p>Price: $308</p>
+                  <input class="number" type="number" id="Audi-quantity" min="1" value="1">
+                  <button onclick="addToCart('Audi', 308)">Add to Cart</button>
+                </div>
+                <div class="cacsanpham">
+                    <img src="img/bmw.png" alt="BMW">
+                    <h3>BMW</h3>
+                    <p>Price: $400</p>
+                    <input class="number" type="number" id="BMW-quantity" min="1" value="1">
+                    <button onclick="addToCart('BMW', 400)">Add to Cart</button>
+                </div>
+                <div class="cacsanpham">
+                    <img src="img/rolls-royce1.webp" alt="Rolls-Royce">
+                    <h3>Rolls-Royce</h3>
+                    <p>Price: $600</p>
+                    <input class="number" type="number" id="Rolls-Royce-quantity" min="1" value="1">
+                    <button onclick="addToCart('Rolls-Royce', 600)">Add to Cart</button>
+                </div>
+                <div class="cacsanpham">
+                    <img src="img/Porsche.jpg" alt="Porsche">
+                    <h3>Porsche</h3>
+                    <p>Price: $505</p>
+                    <input class="number" type="number" id="quantity" min="1" value="1">
+                    <button onclick="addToCart('Porsche', 505)">Add to Cart</button>
+                </div>
+                <div class="cacsanpham">
+                    <img src="img/lesxus3.jpg" alt="Lexus">
+                    <h3>Lexus</h3>
+                    <p>Price: $500</p>
+                    <input class="number" type="number" id="Porsche-quantity" min="1" value="1">
+                    <button onclick="addToCart('Lexus', 500)">Add to Cart</button>
+                </div>
+                <div class="cacsanpham">
+                    <img src="img/Mercedes.webp" alt="Mercedes">
+                    <h3>Mercedes</h3>
+                    <p>Price: $300</p>
+                    <input class="number" type="number" id="Mercedes-quantity" min="1" value="1">
+                    <button onclick="addToCart('Mercedes', 300)">Add to Cart</button>
+                </div>
+                <div class="cacsanpham">
+                    <img src="img/Vinfast.jpg" alt="Vinfast">
+                    <h3>Vinfast</h3>
+                    <p>Price: $250</p>
+                    <input class="number" type="number" id="Vinfast-quantity" min="1" value="1">
+                    <button onclick="addToCart('Vinfast', 250)">Add to Cart</button>
+                </div>
+              </div>
+            
+              <div id="cart"></div>
+
+    </div>
+        <script src="cart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/* CSS cho giao diện giỏ hàng */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #cart {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+  }
+  
+  #cart p {
+    margin: 0;
+  }
+  
+  #cart strong {
+    font-weight: bold;
+  }
+  
+  #cart div {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }

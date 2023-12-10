@@ -1,0 +1,99 @@
+tong{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(100vw - 200px));
+    }
+  }
+  
+img {
+    width: 200px;
+    animation: slide 10s linear infinite;    
+  }
+img-header{
+    display: inline-block;
+    margin-right: 20px;
+}
+header {
+    background-color: royalblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+h1 {
+    margin-bottom: 10px;
+    color: white;
+    
+}
+h2 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+bar {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -13px;
+    background-color: #f7f7f7;
+    padding: 8px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 400px;
+}
+nav li:last-child {
+    margin-right: 0;
+}
+nav li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    display: block;
+    padding: 3px;
+    line-height: 1.5;
+}
+
+nav li a:hover {
+    color: red;
+}
+
+#home {
+    text-align: center;
+    padding: 0px;
+}
+li{
+    width: 30px;
+    height: 30px;
+}
+span {
+    width: 30px;
+}
+nav {
+    display: flex;
+    align-items: center;
+  }
+nav .span {
+    /* CSS cho các phần tử <span> có lớp "material-symbols-outlined" */
+    font-family: 'Font Name', sans-serif; /* Thay 'Font Name' bằng tên font bạn muốn sử dụng */
+    font-size: 24px; /* Kích thước icon */
+    line-height: 1; /* Khoảng cách dòng */
+    vertical-align: middle; /* Căn giữa theo chiều dọc */
+    /* Các thuộc tính CSS khác cho phần tử <span> */
+  }

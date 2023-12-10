@@ -1,0 +1,218 @@
+body {
+  background-color: white;
+}
+
+body {
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+div,
+header,
+li,
+a {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* form */
+.tren {
+  padding: 20px;
+  /* Khoảng cách giữa nội dung và viền phần tử */
+}
+
+.tren header {
+  display: flex;
+  align-items: center;
+}
+
+.tren .logo1 {
+  width: 250px;
+  /* Điều chỉnh kích thước của logo */
+  margin-right: 560px;
+  /* Khoảng cách giữa logo và tiêu đề */
+}
+
+.tren .logo2 {
+  width: 250px;
+  /* Điều chỉnh kích thước của logo */
+  margin-left: 741px;
+  /* Khoảng cách giữa logo và tiêu đề */
+}
+
+.tren .thanhtieude {
+  margin-left: 331px;
+  /* Xóa các margin mặc định của tiêu đề */
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* logo btec 1&2 va chu tieu de */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: -87px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 400px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  padding: 3px;
+  line-height: 1.5;
+  font-size: 28px;
+}
+
+nav li a:hover {
+  color: red;
+}
+
+span {
+  width: 48px;
+}
+
+.gth {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* cac chuc nang de huong toi */
+.oto {
+  width: 200px;
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+      transform: translateX(0);
+  }
+
+  100% {
+      transform: translateX(calc(100vw - 200px));
+  }
+}
+
+/* icon oto di chuyen */
+#home {
+  background-color: white;
+  text-align: center;
+  padding: 0px;
+}
+
+#home h2 {
+  color: black;
+  font-size: 24px;
+}
+
+#home p {
+  color: red;
+
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 30px;
+  color: blue;
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#main {
+  margin-top: 20px;
+}
+
+.contact-info {
+  background-color: orange;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info strong {
+  font-weight: bold;
+}
